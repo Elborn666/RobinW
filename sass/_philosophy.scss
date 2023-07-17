@@ -1,0 +1,28 @@
+.philosophy {
+    background-color: var(--light-color);
+}
+.philosophy__container {
+    padding-bottom: 0px;
+}
+.philosophy__body {
+}
+.philosophy__title {
+    margin-bottom: 24px;
+    color: var(--black-color);
+}
+.philosophy__text {
+    margin-bottom: 91px;
+    color: var(--silver-light);
+}
+.philosophy__button {
+    color: var(--black-color);
+    border-bottom: 1px solid var(--black-color);
+}
+.philosophy__wrapp {
+    margin-top: 51px;
+}
+.philosophy__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

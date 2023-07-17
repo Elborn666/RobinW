@@ -8,20 +8,24 @@ body {
 }
 
 .container {
-  width: 320px;
+  width: 360px;
   padding-right: 20px;
   padding-left: 20px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   margin: 0 auto;
 }
 
 .title {
   font-size: 32px;
   font-weight: 700;
+  color: var(--white-color);
 }
 
 .subtitle {
   font-size: 24px;
   font-weight: 700;
+  color: var(--white-color);
 }
 
 .button {
@@ -69,6 +73,7 @@ a {
   --silver-dark: #8491A0;
   --silver-light: #5B6876;
   --button-color: #5221E6;
+  --light-color: #FFF3E4;
 }
 
 .header__container {
@@ -93,6 +98,131 @@ a {
 .header__button-icon {
   width: 24px;
   height: 24px;
+}
+
+.hero__container {
+  padding-top: 24px;
+}
+
+.hero__wrapp {
+  margin-bottom: 48px;
+}
+
+.hero__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__title {
+  margin-bottom: 16px;
+}
+
+.grey {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  color: var(--white-color);
+}
+
+.companies__pretitle {
+  margin-bottom: 8px;
+}
+
+.companies__title {
+  margin-bottom: 40px;
+}
+
+.number {
+  font-size: 117px;
+}
+
+.companies__subtitle {
+  margin-bottom: 16px;
+}
+
+.green {
+  color: #3CC74E;
+}
+
+.companies__text {
+  margin-bottom: 40px;
+}
+
+.blue {
+  color: #609BFF;
+}
+
+.pink {
+  color: #E95D90;
+}
+
+.philosophy {
+  background-color: var(--light-color);
+}
+
+.philosophy__container {
+  padding-bottom: 0px;
+}
+
+.philosophy__title {
+  margin-bottom: 24px;
+  color: var(--black-color);
+}
+
+.philosophy__text {
+  margin-bottom: 91px;
+  color: var(--silver-light);
+}
+
+.philosophy__button {
+  color: var(--black-color);
+  border-bottom: 1px solid var(--black-color);
+}
+
+.philosophy__wrapp {
+  margin-top: 51px;
+}
+
+.philosophy__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.philosophy {
+  background-color: var(--light-color);
+}
+
+.philosophy__container {
+  padding-bottom: 0px;
+}
+
+.philosophy__title {
+  margin-bottom: 24px;
+  color: var(--black-color);
+}
+
+.philosophy__text {
+  margin-bottom: 91px;
+  color: var(--silver-light);
+}
+
+.philosophy__button {
+  color: var(--black-color);
+  border-bottom: 1px solid var(--black-color);
+}
+
+.philosophy__wrapp {
+  margin-top: 51px;
+}
+
+.philosophy__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .backdrop {
