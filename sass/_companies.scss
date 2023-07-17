@@ -7,6 +7,9 @@
     margin-bottom: 40px;
 }
 .companies__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
 }
 .companies__item {
 }
@@ -20,7 +23,6 @@
     color: #3CC74E;
 }
 .companies__text {
-    margin-bottom: 40px;
 }
 .blue {
   color: #609BFF;  
