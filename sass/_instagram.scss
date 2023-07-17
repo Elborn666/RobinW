@@ -1,0 +1,30 @@
+.instagram {
+    background-color: #FBE4FF;
+}
+.instagram__container {
+    padding-bottom: 0px;
+}
+.instagram__body {
+}
+.instagram__title {
+    margin-bottom: 16px;
+    color: var(--black-color);
+}
+.instagram__text {
+    margin-bottom: 125px;
+    font-size: 18px;
+    color: var(--silver-light);
+}
+.instagram__button {
+    font-size: 18px;
+    color: var(--black-color);
+    border-bottom: 1px solid var(--black-color);
+}
+.instagram__wrapp {
+    margin-top: 51px;
+}
+.instagram__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
