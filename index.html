@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
     <title></title>
@@ -13,15 +14,24 @@
 
 <body>
     <header class="header">
-        <div class="header__container">
+        <div class="header__container container">
             <div class="header__body">
-                <a href="" class="header__logo"></a>
+                <a href="" class="header__logo">
+                    <svg class="header__logo-icon">
+                        <use href="./icon/sprite.svg#icon-logo"></use>
+                    </svg>
+                </a>
                 <nav class="header__nal">
                     <ul class="header__list">
                         <li class="header__item"><a href="" class="header__link"></a></li>
 
                     </ul>
                 </nav>
+                <div class="header__button-burger">
+                    <svg class="header__button-icon">
+                        <use href="./icon/sprite.svg#icon-burger"></use>
+                    </svg>
+                </div>
                 <div class="burger__menu">
                     <div class="burger__container">
                         <div class="burger__body">
@@ -37,8 +47,13 @@
         <section class="hero">
             <div class="hero__container">
                 <div class="hero__body">
-
+                    <img src="./img/Hero/hero.webp" alt="person" class="hero__img">
                 </div>
+                <h1 class="hero__title title">I’m Robin Williams.
+                    A Product Designer <span class="grey">based in Italy</span> .
+                </h1>
+                <p class="hero__subtitle subtitle">I’m probably the most passionate designer you will ever get to work
+                    with. If you have a great project that needs some amazing skills, I’m your guy.</p>
             </div>
         </section>
     </main>
@@ -46,7 +61,7 @@
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__body">
-                
+
             </div>
         </div>
     </footer>
@@ -55,7 +70,7 @@
         <div class="modal__window">
             <div class="modal__window-container">
                 <div class="modal__window-body">
-                    
+
                 </div>
             </div>
         </div>

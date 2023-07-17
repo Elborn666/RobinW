@@ -71,6 +71,30 @@ a {
   --button-color: #5221E6;
 }
 
+.header__container {
+  padding-top: 14px;
+  padding-bottom: 24px;
+}
+
+.header__body {
+  padding-top: 10px;
+  display: flex;
+}
+
+.header__logo-icon {
+  width: 79px;
+  height: 24px;
+}
+
+.header__button-burger {
+  margin-left: auto;
+}
+
+.header__button-icon {
+  width: 24px;
+  height: 24px;
+}
+
 .backdrop {
   position: fixed;
   z-index: 60;
