@@ -347,14 +347,16 @@
                     <p class="form__text">Now that you know a lot about me, let me know if you are interested to work
                         with me.</p>
                     <form class="form-get">
-                        <label for="" class="form__label-name">Name
-                            <input type="text" class="form__input-name input">
+                        <label for="name" class="form__label-name">Name
+                            <input type="text" id="name" name="name" class="form__input-name input" required
+                            minlength="3" pattern="^[а-яА-ЯёЁa-zA-Z]+$" title="Enter only first name">
                         </label>
-                        <label for="" class="form__label-email">Email
-                            <input type="email" class="form__input-email input">
+                        <label for="email" class="form__label-email">Email
+                            <input type="email" id="email" name="email" class="form__input-email input" required
+                            pattern="^([^ ]+@[^ ]+\.[a-z]{2,6}|)$">
                         </label>
-                        <label for="" class="form__label-area">Message
-                            <textarea name="" id="" class="form__textarea input"></textarea>
+                        <label for="message" class="form__label-area">Message
+                            <textarea name="message" id="message" class="form__textarea input"></textarea>
                         </label>
                         <button class="form__button button">Let’s get started</button>
                     </form>
@@ -373,21 +375,21 @@
                 </a>
                 <ul class="footer__list-social">
                     <li class="footer__item-social">
-                        <a href="" class="footer__social-link">
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
                             <svg class="foote__icon-social">
                                 <use href="./icon/sprite.svg#icon-Twitter"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer__item-social">
-                        <a href="" class="footer__social-link">
+                        <a href="https://dribbble.com/shots" target="_blank" class="footer__social-link">
                             <svg class="foote__icon-social">
                                 <use href="./icon/sprite.svg#icon-Dribbble"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer__item-social">
-                        <a href="" class="footer__social-link">
+                        <a href="https://www.linkedin.com/" target="_blank" class="footer__social-link">
                             <svg class="foote__icon-social">
                                 <use href="./icon/sprite.svg#icon-LinkedIn"></use>
                             </svg>

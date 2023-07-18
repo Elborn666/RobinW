@@ -3,8 +3,8 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  color: #8491A0;
-  background-color: #000;
+  color: var(--silver-dark);
+  background-color: var(--black-color);
 }
 
 .container {
@@ -31,8 +31,8 @@ body {
 .button {
   font-size: 18px;
   font-weight: 700;
-  color: #fff;
-  border: 1px solid #5221E6;
+  color: var(--white-color);
+  border: 1px solid var(--button-color);
   cursor: pointer;
 }
 
@@ -40,12 +40,14 @@ body {
   min-width: 320px;
   height: 50px;
   border: 1px solid;
+  color: var(--white-color);
   background-color: #181823;
+  border: 1px solid #181823;
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 690px;
+    width: 688px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -82,6 +84,7 @@ a {
   --silver-light: #5B6876;
   --button-color: #5221E6;
   --light-color: #FFF3E4;
+  --dark-color: #181823;
 }
 
 .header__container {
@@ -194,6 +197,10 @@ a {
   color: var(--black-color);
   border-bottom: 1px solid var(--black-color);
 }
+.philosophy__button:hover {
+  color: var(--button-color);
+  border-bottom: 1px solid var(--button-color);
+}
 
 .philosophy__wrapp {
   margin-top: 51px;
@@ -289,7 +296,7 @@ a {
 
 .work__wrapp {
   padding: 40px 32px;
-  background-color: #181823;
+  background-color: var(--dark-color);
 }
 
 .work__subtitle {
@@ -324,6 +331,10 @@ a {
   color: var(--black-color);
   border-bottom: 1px solid var(--black-color);
 }
+.instagram__button:hover {
+  color: var(--button-color);
+  border-bottom: 1px solid var(--button-color);
+}
 
 .instagram__wrapp {
   margin-top: 51px;
@@ -357,6 +368,10 @@ a {
   color: var(--white-color);
   border-bottom: 1px solid var(--white-color);
 }
+.dribble__button:hover {
+  color: var(--button-color);
+  border-bottom: 1px solid var(--button-color);
+}
 
 .dribble__img {
   margin-top: 64px;
@@ -377,6 +392,10 @@ a {
 .people__link {
   color: var(--white-color);
   border-bottom: 1px solid var(--white-color);
+}
+.people__link:hover {
+  color: var(--button-color);
+  border-bottom: 1px solid var(--button-color);
 }
 
 .people__list {
@@ -485,13 +504,46 @@ a {
   text-transform: uppercase;
   background-color: var(--button-color);
 }
+.form__button:hover {
+  background-color: var(--black-color);
+}
 
 .footer {
-  background-color: #181823;
+  background-color: var(--dark-color);
+}
+
+.footer__logo-icon {
+  width: 131px;
+  height: 40px;
 }
 
 .footer__list-social {
   margin-top: 32px;
+  margin-bottom: 48px;
+  display: flex;
+  gap: 16px;
+}
+
+.foote__icon-social {
+  width: 24px;
+  height: 24px;
+}
+
+.footer__nav {
+  margin-bottom: 48px;
+}
+
+.footer__list-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer__link {
+  color: var(--white-color);
+}
+.footer__link:hover {
+  border-bottom: 1px solid;
 }
 
 .backdrop {

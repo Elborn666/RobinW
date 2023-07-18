@@ -1,5 +1,5 @@
 .footer {
-    background-color: #181823;
+    background-color: var(--dark-color);
 }
 .footer__container {
 }
@@ -8,23 +8,38 @@
 .footer__logo {
 }
 .footer__logo-icon {
+    width: 131px;
+    height: 40px;
 }
 .footer__list-social {
     margin-top: 32px;
+    margin-bottom: 48px;
+    display: flex;
+    gap: 16px;
 }
 .footer__item-social {
 }
 .footer__social-link {
 }
 .foote__icon-social {
+    width: 24px;
+    height: 24px;
 }
 .footer__nav {
+    margin-bottom: 48px;
 }
 .footer__list-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .footer__item-nav {
 }
 .footer__link {
+    color: var(--white-color);
+    &:hover {
+        border-bottom: 1px solid;
+    }
 }
 .footer__nocopy {
 }

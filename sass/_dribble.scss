@@ -18,6 +18,10 @@
     font-size: 16px;
     color: var(--white-color);
     border-bottom: 1px solid var(--white-color);
+    &:hover {
+        color: var(--button-color);
+        border-bottom: 1px solid var(--button-color);
+    }
 }
 .dribble__img {
     margin-top: 64px;

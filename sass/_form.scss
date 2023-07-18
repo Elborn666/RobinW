@@ -35,4 +35,7 @@
     padding: 24px 32px;
     text-transform: uppercase;
     background-color: var(--button-color);
+    &:hover {
+        background-color: var(--black-color);
+    }
 }

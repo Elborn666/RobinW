@@ -19,6 +19,10 @@
     font-size: 18px;
     color: var(--black-color);
     border-bottom: 1px solid var(--black-color);
+    &:hover {
+        color: var(--button-color);
+        border-bottom: 1px solid var(--button-color);
+    }
 }
 .instagram__wrapp {
     margin-top: 51px;
