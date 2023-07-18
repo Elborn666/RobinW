@@ -1,0 +1,38 @@
+.form__container {
+}
+.form__body {
+}
+.form__title {
+    margin-bottom: 16px;
+}
+.form__text {
+    margin-bottom: 48px;
+    font-size: 18px;
+}
+.form-get {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.form__label-name {
+    margin-bottom: 5px;
+}
+.form__input-name {
+}
+.form__label-email {
+    margin-bottom: 5px;
+}
+.form__input-email {
+}
+.form__label-area {
+    margin-bottom: 5px;
+}
+.form__textarea {
+    height: 100px;
+    resize: none;
+}
+.form__button {
+    padding: 24px 32px;
+    text-transform: uppercase;
+    background-color: var(--button-color);
+}

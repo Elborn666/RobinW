@@ -21,6 +21,9 @@
     width: 148px;
     text-transform: uppercase;
     background-color: inherit;
+    &:hover {
+        background-color: var(--button-color);
+    }
 }
 .photography__list-photo {
     display: flex;
