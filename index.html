@@ -16,15 +16,17 @@
     <header class="header">
         <div class="header__container container">
             <div class="header__body">
-                <a href="" class="header__logo">
+                <a href="#" class="header__logo">
                     <svg class="header__logo-icon">
                         <use href="./icon/sprite.svg#icon-logo"></use>
                     </svg>
                 </a>
-                <nav class="header__nal">
+                <nav class="header__nav">
                     <ul class="header__list">
-                        <li class="header__item"><a href="" class="header__link"></a></li>
-
+                        <li class="header__item"><a href="#skillset" class="header__link">Experience</a></li>
+                        <li class="header__item"><a href="#work" class="header__link">Work</a></li>
+                        <li class="header__item"><a href="#photography" class="header__link">Photography</a></li>
+                        <li class="header__item"><a href="#footer" class="header__link">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="header__button-burger">
@@ -50,12 +52,14 @@
                     <div class="hero__wrapp">
                         <img src="./img/Hero/hero.webp" alt="person" class="hero__img">
                     </div>
-                    <h1 class="hero__title title">I’m Robin Williams.
-                        A Product Designer <span class="grey">based in Italy</span> .
-                    </h1>
-                    <p class="hero__subtitle">I’m probably the most passionate designer you will ever get to
-                        work
-                        with. If you have a great project that needs some amazing skills, I’m your guy.</p>
+                    <div class="hero__wrapp-text">
+                        <h1 class="hero__title title">I’m Robin Williams.
+                            A Product Designer <span class="grey">based in Italy</span> .
+                        </h1>
+                        <p class="hero__subtitle">I’m probably the most passionate designer you will ever get to
+                            work
+                            with. If you have a great project that needs some amazing skills, I’m your guy.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -104,7 +108,7 @@
                 </div>
             </div>
         </section>
-        <section class="skillset">
+        <section class="skillset" id="skillset">
             <div class="skillset__container container">
                 <div class="skillset__body">
                     <h2 class="skillset__title title">Skillset</h2>
@@ -187,7 +191,7 @@
                 </div>
             </div>
         </div>
-        <section class="work">
+        <section class="work" id="work">
             <div class="work__container container">
                 <div class="work__body">
                     <p class="work__pretitle">MY PROJECTS</p>
@@ -303,7 +307,7 @@
                 </div>
             </div>
         </section>
-        <section class="photography">
+        <section class="photography" id="photography">
             <div class="photography__container container">
                 <div class="photography__body">
                     <h2 class="photography__title title">Photography</h2>
@@ -349,11 +353,11 @@
                     <form class="form-get">
                         <label for="name" class="form__label-name">Name
                             <input type="text" id="name" name="name" class="form__input-name input" required
-                            minlength="3" pattern="^[а-яА-ЯёЁa-zA-Z]+$" title="Enter only first name">
+                                minlength="3" pattern="^[а-яА-ЯёЁa-zA-Z]+$" title="Enter only first name">
                         </label>
                         <label for="email" class="form__label-email">Email
                             <input type="email" id="email" name="email" class="form__input-email input" required
-                            pattern="^([^ ]+@[^ ]+\.[a-z]{2,6}|)$">
+                                pattern="^([^ ]+@[^ ]+\.[a-z]{2,6}|)$">
                         </label>
                         <label for="message" class="form__label-area">Message
                             <textarea name="message" id="message" class="form__textarea input"></textarea>
@@ -365,7 +369,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="footer__container container">
             <div class="footer__body">
                 <a href="#" class="footer__logo">

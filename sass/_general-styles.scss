@@ -36,12 +36,15 @@ body {
     height: 50px;
     border: 1px solid;
     color: var(--white-color);
-    background-color: #181823;
-    border: 1px solid #181823;
+    background-color: var(--dark-color);
+    border: 1px solid  var(--dark-color);
 }
 @media screen and (min-width: 768px){
     .container {
         width: 688px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+
     }
 }
 @media screen and (min-width: 1440px){

@@ -1,3 +1,11 @@
+.hero {
+    // background-image: url('../img/Hero/hero.webp');
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: contain;
+    // min-width: 360px;
+    // min-height: 288px;
+}
 .hero__container {
     padding-top: 24px;
 }
@@ -20,4 +28,21 @@
 .hero__subtitle {
     font-size: 18px;
     color: var(--white-color);
+}
+@media screen and (min-width: 768px){
+    .hero__container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .hero__body {
+        display: flex;
+    }
+    .hero__wrapp {
+        margin-bottom: 0px;
+    }
+    .hero__img {
+        min-height: 650px;
+    }
+    .hero__wrapp-text {
+    }
 }
