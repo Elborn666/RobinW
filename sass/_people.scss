@@ -1,0 +1,41 @@
+.people__body {
+}
+.people__title {
+    margin-bottom: 16px;
+}
+.people__text {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.people__link {
+    color: var(--white-color);
+}
+.people__list {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+}
+.people__item {
+}
+.people__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.people__wrapp {
+    padding: 32px;
+    border: 1px solid var(--silver-light);
+
+}
+.people__subtitle {
+    margin-bottom: 64px;
+    color: var(--white-color);
+}
+.people__author {
+    font-size: 18px;
+    font-weight: 700;
+}
+.people__profecion {
+    font-size: 18px;
+}

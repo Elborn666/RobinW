@@ -357,39 +357,83 @@ a {
   object-fit: contain;
 }
 
-.philosophy {
-  background-color: var(--light-color);
+.people__title {
+  margin-bottom: 16px;
 }
 
-.philosophy__container {
-  padding-bottom: 0px;
-}
-
-.philosophy__title {
-  margin-bottom: 24px;
-  color: var(--black-color);
-}
-
-.philosophy__text {
-  margin-bottom: 91px;
+.people__text {
+  margin-bottom: 40px;
   font-size: 18px;
-  color: var(--silver-light);
 }
 
-.philosophy__button {
-  font-size: 18px;
-  color: var(--black-color);
-  border-bottom: 1px solid var(--black-color);
+.people__link {
+  color: var(--white-color);
 }
 
-.philosophy__wrapp {
-  margin-top: 51px;
+.people__list {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
 }
 
-.philosophy__img {
+.people__img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+}
+
+.people__wrapp {
+  padding: 32px;
+  border: 1px solid var(--silver-light);
+}
+
+.people__subtitle {
+  margin-bottom: 64px;
+  color: var(--white-color);
+}
+
+.people__author {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.people__profecion {
+  font-size: 18px;
+}
+
+.photography__title {
+  margin-bottom: 24px;
+}
+
+.photography__text {
+  margin-bottom: 40px;
+}
+
+.photography__list-button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.photography__button {
+  padding: 12px 16px;
+  width: 148px;
+  text-transform: uppercase;
+  background-color: inherit;
+}
+
+.photography__list-photo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.photography__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .backdrop {
