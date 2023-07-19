@@ -31,3 +31,12 @@
 .pink {
     color: #E95D90;
 }
+@media screen and (min-width: 768px){
+    .companies__list {
+        flex-direction: row;
+        column-gap: 40px;
+    }
+    .companies__item {
+        flex: 1 1 33.3333%;
+    }
+}

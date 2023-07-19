@@ -1,6 +1,5 @@
 .icons__container {
     padding: 0px;
-
 }
 .icons__body {
 }
@@ -18,7 +17,12 @@
     border: 1px solid;
 }
 .icons__item-icon {
-    flex: 0 1 50%;
-    max-width: 154px;
+    min-width: 154px;
     height: 30px;
+}
+@media screen and (min-width: 768px){
+    .icons__item {
+        min-width: 180px;
+        height: 140px;
+    }
 }

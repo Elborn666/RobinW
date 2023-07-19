@@ -27,13 +27,13 @@
     }
     .hero__body {
         display: flex;
+        align-items: center;
     }
     .hero__wrapp {
         margin-bottom: 0px;
-    }
-    .hero__img {
         min-height: 650px;
     }
-    .hero__wrapp-text {
+    .hero__img {
+        object-fit: cover;
     }
 }

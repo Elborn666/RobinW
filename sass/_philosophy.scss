@@ -1,7 +1,5 @@
 .philosophy {
     background-color: var(--light-color);
-    display: flex;
-    flex-direction: column-reverse;
 }
 .philosophy__container {
     padding-bottom: 0px;
@@ -38,7 +36,20 @@
     display: block;
 }
 @media screen and (min-width: 768px){
-    .philosophy {
-        flex-direction: row-reverse;
+    .philosophy__container {
+        padding-bottom: 80px;
+    }
+    .philosophy__body{
+        display: flex;
+    }
+    .philosophy__thumb {
+        margin-right: 40px;
+        width: 50%;
+    }
+    .philosophy__img {
+        width: 50%;
+    }
+    .philosophy__text {
+        margin-bottom: 67px;
     }
 }

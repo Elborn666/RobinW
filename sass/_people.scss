@@ -32,7 +32,6 @@
 .people__wrapp {
     padding: 32px;
     border: 1px solid var(--silver-light);
-
 }
 .people__subtitle {
     margin-bottom: 64px;
@@ -44,4 +43,19 @@
 }
 .people__profecion {
     font-size: 18px;
+}
+@media screen and (min-width: 768px){
+    .people__body {
+        display: flex;
+    }
+    .people__thumb {
+        margin-right: 24px;
+    }
+    .people__list{
+        margin-top: 0px;
+        row-gap: 64px;
+    }
+    .people__item {
+        width: 333px;
+    }
 }

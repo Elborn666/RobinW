@@ -28,3 +28,20 @@
 }
 .skillset__item-text {
 }
+@media screen and (min-width: 768px){
+    .skillset__container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .skillset__text {
+        margin-bottom: 48px;
+    }
+    .skillset__list {
+        flex-direction: row;
+        column-gap: 24px;
+        flex-wrap: wrap;
+    }
+    .skillset__item {
+        max-width: 284px;
+    }
+}
