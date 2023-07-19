@@ -90,13 +90,13 @@ a {
 }
 
 .header__container {
-  padding-top: 14px;
+  padding-top: 24px;
   padding-bottom: 24px;
 }
 
 .header__body {
-  padding-top: 10px;
   display: flex;
+  justify-content: space-between;
 }
 
 .header__logo-icon {
