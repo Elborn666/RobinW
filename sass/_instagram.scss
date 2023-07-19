@@ -3,6 +3,7 @@
 }
 .instagram__container {
     padding-bottom: 0px;
+    background-color: #FBE4FF;
 }
 .instagram__body {
 }
@@ -25,10 +26,11 @@
     }
 }
 .instagram__wrapp {
-    margin-top: 51px;
+    margin-bottom: 51px;
 }
 .instagram__img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    display: block;
 }

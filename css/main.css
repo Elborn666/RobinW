@@ -155,14 +155,10 @@ a {
   padding-top: 24px;
 }
 
-.hero__wrapp {
-  margin-bottom: 48px;
-}
-
 .hero__img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .hero__title {
@@ -230,10 +226,13 @@ a {
 
 .philosophy {
   background-color: var(--light-color);
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .philosophy__container {
   padding-bottom: 0px;
+  background-color: var(--light-color);
 }
 
 .philosophy__title {
@@ -247,7 +246,12 @@ a {
   color: var(--silver-light);
 }
 
+.philosophy__wrap {
+  margin-bottom: 51px;
+}
+
 .philosophy__button {
+  margin-bottom: 51px;
   font-size: 18px;
   color: var(--black-color);
   border-bottom: 1px solid var(--black-color);
@@ -257,16 +261,18 @@ a {
   border-bottom: 1px solid var(--button-color);
 }
 
-.philosophy__wrapp {
-  margin-top: 51px;
-}
-
 .philosophy__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
+@media screen and (min-width: 768px) {
+  .philosophy {
+    flex-direction: row-reverse;
+  }
+}
 .skillset__container {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -304,20 +310,21 @@ a {
 .icons__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .icons__item {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 180px;
+  max-width: 180px;
   height: 140px;
   border: 1px solid;
 }
 
 .icons__item-icon {
   flex: 0 1 50%;
-  width: 154px;
+  max-width: 154px;
   height: 30px;
 }
 
@@ -347,6 +354,7 @@ a {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  display: block;
 }
 
 .work__wrapp {
@@ -368,6 +376,7 @@ a {
 
 .instagram__container {
   padding-bottom: 0px;
+  background-color: #FBE4FF;
 }
 
 .instagram__title {
@@ -392,13 +401,14 @@ a {
 }
 
 .instagram__wrapp {
-  margin-top: 51px;
+  margin-bottom: 51px;
 }
 
 .instagram__img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  display: block;
 }
 
 .dribble__container {
@@ -464,6 +474,7 @@ a {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  display: block;
 }
 
 .people__wrapp {
@@ -517,7 +528,7 @@ a {
 }
 
 .photography__img {
-  width: 100%;
+  max-width: 360px;
   height: 100%;
   object-fit: contain;
 }

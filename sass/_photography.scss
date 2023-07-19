@@ -33,7 +33,7 @@
 .photography__item-photo {
 }
 .photography__img {
-    width: 100%;
+    max-width: 360px;
     height: 100%;
     object-fit: contain;
 }
