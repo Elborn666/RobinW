@@ -166,30 +166,13 @@ a {
     display: none;
   }
 }
-@media screen and (min-width: 1440px) {
-  .header {
-    position: relative;
-  }
-  .header::before {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    display: block;
-    background-color: var(--dark-color);
-    top: 0;
-    left: 700px;
-    height: 900px;
-    width: 900px;
-  }
-}
 .hero__container {
   padding-top: 24px;
 }
 
 .hero__img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .hero__title {
@@ -212,21 +195,33 @@ a {
   }
   .hero__body {
     display: flex;
-    align-items: center;
-    position: relative;
-    z-index: 10;
   }
   .hero__wrapp {
     margin-bottom: 0px;
-    min-height: 650px;
+    margin-left: -200px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hero__wrapp-text {
+    width: 408px;
+    margin-left: -300px;
   }
   .hero__img {
-    object-fit: cover;
+    width: auto;
   }
 }
 @media screen and (min-width: 1440px) {
+  .hero__body {
+    align-items: center;
+  }
+  .hero__wrapp-text {
+    width: 738px;
+  }
   .hero__title {
     font-size: 78px;
+  }
+  .hero__wrapp-text {
+    margin-left: -100px;
   }
 }
 .companies__pretitle {
@@ -537,6 +532,7 @@ a {
 }
 
 .instagram__container {
+  padding-top: 48px;
   padding-bottom: 0px;
   background-color: #FBE4FF;
 }
@@ -569,37 +565,49 @@ a {
 .instagram__img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
 }
 
 @media screen and (min-width: 768px) {
   .instagram__container {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
+    padding-top: 0px;
   }
   .instagram__body {
     display: flex;
   }
   .instagram__thumb {
+    padding-top: 80px;
+    padding-bottom: 80px;
     margin-right: 40px;
     width: 50%;
   }
+  .instagram__wrapp-img {
+    height: auto;
+  }
   .instagram__img {
-    object-fit: cover;
+    max-width: 384px;
+    min-height: 600px;
   }
   .instagram__text {
-    margin-bottom: 133px;
+    margin-bottom: 100px;
   }
   .instagram__wrapp {
     margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .instagram__container {
+  .instagram__thumb {
+    padding-top: 120px;
     padding-bottom: 120px;
   }
   .instagram__thumb {
     margin-right: 72px;
+  }
+  .instagram__img {
+    max-width: 720px;
+    min-height: 600px;
   }
 }
 .dribble__container {

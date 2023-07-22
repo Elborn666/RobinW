@@ -3,8 +3,7 @@
 }
 .hero__img {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 .hero__title {
     margin-bottom: 16px;
@@ -23,20 +22,32 @@
     }
     .hero__body {
         display: flex;
-        align-items: center;
-        position: relative;
-        z-index: 10;
     }
     .hero__wrapp {
         margin-bottom: 0px;
-        min-height: 650px;
+        margin-left: -200px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .hero__wrapp-text {
+        width: 408px;
+        margin-left: -300px;
     }
     .hero__img {
-        object-fit: cover;
+        width: auto;
     }
 }
 @media screen and (min-width: 1440px){
+    .hero__body {
+        align-items: center;
+    }
+    .hero__wrapp-text {
+        width: 738px;
+    } 
     .hero__title {
        font-size: 78px;
+    }
+    .hero__wrapp-text {
+        margin-left: -100px;
     }
 }
