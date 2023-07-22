@@ -195,33 +195,37 @@ a {
   }
   .hero__body {
     display: flex;
+    align-items: center;
   }
   .hero__wrapp {
-    margin-bottom: 0px;
-    margin-left: -200px;
-    height: 100%;
-    object-fit: cover;
+    margin-left: -75px;
   }
   .hero__wrapp-text {
     width: 408px;
-    margin-left: -300px;
+    margin-left: -68px;
   }
   .hero__img {
-    width: auto;
+    height: 650px;
+    width: 384px;
   }
 }
 @media screen and (min-width: 1440px) {
   .hero__body {
     align-items: center;
   }
+  .hero__wrapp {
+    margin-left: -150px;
+  }
   .hero__wrapp-text {
     width: 738px;
+    margin-left: -100px;
   }
   .hero__title {
     font-size: 78px;
   }
-  .hero__wrapp-text {
-    margin-left: -100px;
+  .hero__img {
+    height: 650px;
+    width: 750px;
   }
 }
 .companies__pretitle {
