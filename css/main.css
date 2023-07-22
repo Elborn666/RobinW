@@ -38,6 +38,7 @@ body {
 }
 
 .input {
+  margin-top: 5px;
   min-width: 320px;
   height: 50px;
   border: 1px solid;
@@ -61,6 +62,13 @@ body {
     width: 1296px;
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+  .label {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    min-width: 526px;
   }
 }
 h1,
@@ -495,6 +503,9 @@ a {
   background-color: inherit;
   padding: 24px 32px;
 }
+.work__button:hover {
+  background-color: var(--button-color);
+}
 
 @media screen and (min-width: 768px) {
   .work__container {
@@ -785,18 +796,6 @@ a {
   gap: 40px;
 }
 
-.form__label-name {
-  margin-bottom: 5px;
-}
-
-.form__label-email {
-  margin-bottom: 5px;
-}
-
-.form__label-area {
-  margin-bottom: 5px;
-}
-
 .form__textarea {
   height: 100px;
   resize: none;
@@ -815,6 +814,12 @@ a {
     display: flex;
   }
   .form__thumb {
+    margin-right: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .form__thumb {
+    width: 526px;
     margin-right: 24px;
   }
 }
@@ -870,7 +875,9 @@ a {
   .footer__body {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 48px;
+  }
+  .footer__list-social {
+    margin-bottom: 0px;
   }
   .footer__nav-wrapp {
     display: flex;
@@ -882,6 +889,22 @@ a {
   }
   .footer__nocopy {
     width: 329px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .footer__body {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer__social-wrapp {
+    margin-right: 560px;
+  }
+  .footer__nocopy {
+    width: 426px;
   }
 }
 .backdrop {

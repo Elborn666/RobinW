@@ -43,7 +43,9 @@
     .footer__body {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 48px;
+    }
+    .footer__list-social {
+        margin-bottom: 0px;
     }
     .footer__nav-wrapp {
         display: flex;
@@ -55,5 +57,21 @@
     }
     .footer__nocopy {
         width: 329px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .footer__container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .footer__body {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footer__social-wrapp {
+        margin-right: 560px;
+    }
+    .footer__nocopy {
+        width: 426px;
     }
 }

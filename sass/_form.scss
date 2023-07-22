@@ -1,7 +1,3 @@
-.form__container {
-}
-.form__body {
-}
 .form__title {
     margin-bottom: 16px;
 }
@@ -13,19 +9,6 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-}
-.form__label-name {
-    margin-bottom: 5px;
-}
-.form__input-name {
-}
-.form__label-email {
-    margin-bottom: 5px;
-}
-.form__input-email {
-}
-.form__label-area {
-    margin-bottom: 5px;
 }
 .form__textarea {
     height: 100px;
@@ -43,6 +26,12 @@
         display: flex;
     }
     .form__thumb {
+        margin-right: 24px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .form__thumb {
+        width: 526px;
         margin-right: 24px;
     }
 }
