@@ -5,8 +5,6 @@
     padding-bottom: 0px;
     background-color: #FBE4FF;
 }
-.instagram__body {
-}
 .instagram__title {
     margin-bottom: 16px;
     color: var(--black-color);
@@ -50,5 +48,16 @@
     }
     .instagram__text {
         margin-bottom: 133px;
+    }
+    .instagram__wrapp {
+        margin-bottom: 0px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .instagram__container {
+        padding-bottom: 120px;
+    }
+    .instagram__thumb {
+        margin-right: 72px;
     }
 }

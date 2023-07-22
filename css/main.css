@@ -33,6 +33,7 @@ body {
   font-weight: 700;
   color: var(--white-color);
   border: 1px solid var(--button-color);
+  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -333,7 +334,6 @@ a {
 }
 @media screen and (min-width: 1440px) {
   .philosophy__container {
-    padding-top: 120px;
     padding-bottom: 120px;
   }
   .philosophy__text {
@@ -437,7 +437,13 @@ a {
 
 @media screen and (min-width: 768px) {
   .icons__item {
-    min-width: 180px;
+    min-width: 344px;
+    height: 140px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .icons__item {
+    min-width: 340px;
     height: 140px;
   }
 }
@@ -483,10 +489,30 @@ a {
   font-size: 18px;
 }
 
+.work__button {
+  display: none;
+  margin-top: 90px;
+  background-color: inherit;
+  padding: 24px 32px;
+}
+
 @media screen and (min-width: 768px) {
   .work__container {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .work__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .work__body {
+    display: flex;
+    column-gap: 24px;
+  }
+  .work__button {
+    display: block;
   }
 }
 .instagram {
@@ -547,6 +573,17 @@ a {
   .instagram__text {
     margin-bottom: 133px;
   }
+  .instagram__wrapp {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .instagram__container {
+    padding-bottom: 120px;
+  }
+  .instagram__thumb {
+    margin-right: 72px;
+  }
 }
 .dribble__container {
   padding-top: 64px;
@@ -591,8 +628,14 @@ a {
     margin-top: 120px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .dribble__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
 .people__title {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .people__text {
@@ -652,9 +695,20 @@ a {
   .people__list {
     margin-top: 0px;
     row-gap: 64px;
-  }
-  .people__item {
     width: 333px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .people__thumb {
+    width: 588px;
+    margin-right: 72px;
+  }
+  .people__list {
+    row-gap: 120px;
+    width: 636px;
+  }
+  .people__wrapp {
+    padding: 64px;
   }
 }
 .photography__title {
@@ -675,7 +729,6 @@ a {
 .photography__button {
   padding: 12px 16px;
   width: 148px;
-  text-transform: uppercase;
   background-color: inherit;
 }
 .photography__button:hover {
@@ -712,6 +765,11 @@ a {
     max-width: 332px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .photography__img {
+    max-width: 296px;
+  }
+}
 .form__title {
   margin-bottom: 16px;
 }
@@ -746,7 +804,6 @@ a {
 
 .form__button {
   padding: 24px 32px;
-  text-transform: uppercase;
   background-color: var(--button-color);
 }
 .form__button:hover {

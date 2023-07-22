@@ -1,7 +1,5 @@
-.people__body {
-}
 .people__title {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 .people__text {
     margin-bottom: 40px;
@@ -20,8 +18,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 48px;
-}
-.people__item {
 }
 .people__img {
     width: 100%;
@@ -54,8 +50,19 @@
     .people__list{
         margin-top: 0px;
         row-gap: 64px;
-    }
-    .people__item {
         width: 333px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .people__thumb {
+        width: 588px;
+        margin-right: 72px;
+    }
+    .people__list{
+        row-gap: 120px;
+        width: 636px;
+    }
+    .people__wrapp {
+        padding: 64px;
     }
 }

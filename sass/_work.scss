@@ -2,8 +2,6 @@
     padding-top: 64px;
     padding-bottom: 70px;
 }
-.work__body {
-}
 .work__pretitle {
     margin-bottom: 5px;
     font-size: 16px;
@@ -17,8 +15,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 48px;
-}
-.work__item {
 }
 .work__img {
     width: 100%;
@@ -36,9 +32,28 @@
 .work__text {
     font-size: 18px;
 }
+.work__button {
+    display: none;
+    margin-top: 90px;
+    background-color: inherit;
+    padding: 24px 32px;
+}
 @media screen and (min-width: 768px){
     .work__container {
         padding-top: 80px;
         padding-bottom: 80px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .work__container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .work__body {
+        display: flex;
+        column-gap: 24px;
+    }
+    .work__button {
+        display: block;
     }
 }
