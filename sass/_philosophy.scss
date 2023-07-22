@@ -34,18 +34,23 @@
 }
 @media screen and (min-width: 768px){
     .philosophy__container {
-        padding-bottom: 80px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     .philosophy__body{
         display: flex;
     }
     .philosophy__thumb {
+        padding-top: 80px;
+        padding-bottom: 80px;
         margin-right: 40px;
-        width: 50%;
+    }
+    .philosophy__text {
+        margin-bottom: 35px;
     }
     .philosophy__img {
-        width: 50%;
-        height: auto;
+        width: 304px;
+        height: 600px;
         object-fit: cover;
     }
     .philosophy__wrap {
@@ -53,10 +58,10 @@
     }
 }
 @media screen and (min-width: 1440px){
-    .philosophy__container {
-        padding-bottom: 120px;
-    }
     .philosophy__text {
-        margin-bottom: 134px;
+        margin-bottom: 116px;
+    }
+    .philosophy__img {
+        width: 700px;
     }
 }
