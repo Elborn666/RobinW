@@ -1,12 +1,8 @@
 .footer {
     background-color: var(--dark-color);
 }
-.footer__container {
-}
 .footer__body {
     margin-bottom: 48px;
-}
-.footer__logo {
 }
 .footer__logo-icon {
     width: 131px;
@@ -17,10 +13,6 @@
     margin-bottom: 48px;
     display: flex;
     gap: 16px;
-}
-.footer__item-social {
-}
-.footer__social-link {
 }
 .foote__icon-social {
     width: 24px;
@@ -37,15 +29,12 @@
     flex-direction: column;
     gap: 16px;
 }
-.footer__item-nav {
-}
+
 .footer__link {
     color: var(--white-color);
     &:hover {
         border-bottom: 1px solid;
     }
-}
-.footer__nocopy {
 }
 @media screen and (min-width: 768px){
     .footer__container {

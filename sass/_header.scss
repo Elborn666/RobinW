@@ -6,8 +6,6 @@
     display: flex;
     justify-content: space-between;
 }
-.header__logo {
-}
 .header__logo-icon {
     width: 79px;
     height: 24px;
@@ -33,12 +31,6 @@
 .header__button-icon {
     width: 24px;
     height: 24px;
-}
-.burger__menu {
-}
-.burger__container {
-}
-.burger__body {
 }
 @media screen and (min-width: 768px){
     .header__container {
