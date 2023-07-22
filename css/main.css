@@ -129,13 +129,15 @@ a {
 }
 
 .header__item {
-  padding: 32px 24px;
+  padding: 32px 0px 32px 0px;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__item:hover {
   background-color: var(--button-color);
 }
 
 .header__link {
+  padding: 32px 24px;
   color: var(--white-color);
 }
 
@@ -462,9 +464,16 @@ a {
   max-width: 329px;
   height: 140px;
   border: 1px solid;
+  cursor: pointer;
+}
+
+.icons__item:hover .icons__item-icon {
+  transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: var(--button-color);
 }
 
 .icons__item-icon {
+  fill: var(--silver-dark);
   height: 30px;
 }
 
@@ -530,6 +539,7 @@ a {
   margin-top: 90px;
   background-color: inherit;
   padding: 24px 32px;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work__button:hover {
   background-color: var(--button-color);
@@ -658,6 +668,8 @@ a {
   font-size: 16px;
   color: var(--white-color);
   border-bottom: 1px solid var(--white-color);
+  transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-bottom 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .dribble__button:hover {
   color: var(--button-color);
@@ -698,6 +710,8 @@ a {
 .people__link {
   color: var(--white-color);
   border-bottom: 1px solid var(--white-color);
+  transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-bottom 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .people__link:hover {
   color: var(--button-color);
@@ -783,6 +797,7 @@ a {
   padding: 12px 16px;
   width: 148px;
   background-color: inherit;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .photography__button:hover {
   background-color: var(--button-color);
@@ -794,10 +809,24 @@ a {
   gap: 20px;
 }
 
+.photography__item-photo {
+  overflow: hidden;
+}
+
 .photography__img {
   max-width: 360px;
   height: 100%;
   object-fit: contain;
+  cursor: pointer;
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
+  transition: filter 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.photography__img:hover {
+  transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1.1);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 @media screen and (min-width: 768px) {
@@ -846,6 +875,7 @@ a {
 .form__button {
   padding: 24px 32px;
   background-color: var(--button-color);
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form__button:hover {
   background-color: var(--black-color);
@@ -909,6 +939,7 @@ a {
 
 .footer__link {
   color: var(--white-color);
+  transition: border-bottom 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__link:hover {
   border-bottom: 1px solid;
