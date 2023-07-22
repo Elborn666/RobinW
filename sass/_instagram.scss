@@ -28,8 +28,8 @@
     margin-bottom: 51px;
 }
 .instagram__img {
-    width: 100%;
-    height: 100%;
+    width: 330px;
+    height: 450px;
     object-fit: cover;
     display: block;
 }
@@ -51,8 +51,8 @@
         height: auto;
     }
     .instagram__img {
-        max-width: 384px;
-        min-height: 600px;
+        width: 384px;
+        height: 600px;
     }
     .instagram__text {
         margin-bottom: 100px;
@@ -70,7 +70,7 @@
         margin-right: 72px;
     }
     .instagram__img {
-        max-width: 720px;
-        min-height: 600px;
+        width: 720px;
+        height: 600px;
     }
 }
