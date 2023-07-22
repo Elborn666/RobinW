@@ -43,8 +43,10 @@
         margin-right: 40px;
         width: 50%;
     }
+    .instagram__wrapp-img {
+    }
     .instagram__img {
-        width: 50%;
+        object-fit: cover;
     }
     .instagram__text {
         margin-bottom: 133px;

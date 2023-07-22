@@ -335,6 +335,8 @@ a {
   }
   .philosophy__img {
     width: 50%;
+    height: auto;
+    object-fit: cover;
   }
   .philosophy__wrap {
     margin-bottom: 0px;
@@ -579,7 +581,7 @@ a {
     width: 50%;
   }
   .instagram__img {
-    width: 50%;
+    object-fit: cover;
   }
   .instagram__text {
     margin-bottom: 133px;
@@ -701,7 +703,8 @@ a {
     display: flex;
   }
   .people__thumb {
-    margin-right: 24px;
+    width: 346px;
+    margin-right: 10px;
   }
   .people__list {
     margin-top: 0px;

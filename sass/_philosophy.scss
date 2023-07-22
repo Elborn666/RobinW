@@ -45,6 +45,8 @@
     }
     .philosophy__img {
         width: 50%;
+        height: auto;
+        object-fit: cover;
     }
     .philosophy__wrap {
         margin-bottom: 0px;
