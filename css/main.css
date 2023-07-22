@@ -57,7 +57,9 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1300px;
+    width: 1296px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 h1,
@@ -145,13 +147,30 @@ a {
     align-items: center;
   }
   .header__logo {
-    margin-right: 120px;
+    margin-right: auto;
   }
   .header__nav {
-    display: block;
+    display: flex;
+    z-index: 10;
   }
   .header__button-burger {
     display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header {
+    position: relative;
+  }
+  .header::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    display: block;
+    background-color: var(--dark-color);
+    top: 0;
+    left: 700px;
+    height: 900px;
+    width: 900px;
   }
 }
 .hero__container {
@@ -185,6 +204,8 @@ a {
   .hero__body {
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 10;
   }
   .hero__wrapp {
     margin-bottom: 0px;
@@ -192,6 +213,11 @@ a {
   }
   .hero__img {
     object-fit: cover;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__title {
+    font-size: 78px;
   }
 }
 .companies__pretitle {
@@ -236,6 +262,14 @@ a {
   }
   .companies__item {
     flex: 1 1 33.3333%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .companies__title {
+    width: 690px;
+  }
+  .companies__list {
+    column-gap: 100px;
   }
 }
 .philosophy {

@@ -1,5 +1,3 @@
-.companies__body {
-}
 .companies__pretitle {
     margin-bottom: 8px;
     text-transform: uppercase;
@@ -12,8 +10,6 @@
     flex-direction: column;
     row-gap: 40px;
 }
-.companies__item {
-}
 .number {
     font-size: 117px;
 }
@@ -22,8 +18,6 @@
 }
 .green {
     color: #3CC74E;
-}
-.companies__text {
 }
 .blue {
   color: #609BFF;  
@@ -38,5 +32,13 @@
     }
     .companies__item {
         flex: 1 1 33.3333%;
+    }
+}
+@media screen and (min-width: 1440px){
+    .companies__title {
+       width: 690px;
+    }
+    .companies__list {
+        column-gap: 100px;
     }
 }

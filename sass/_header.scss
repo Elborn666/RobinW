@@ -50,12 +50,29 @@
         align-items: center;
     }
     .header__logo {
-        margin-right: 120px;
+        margin-right: auto;
     }
     .header__nav {
-        display: block;
+        display: flex;
+        z-index: 10;
     }
     .header__button-burger {
         display: none;
+    }
+}
+@media screen and (min-width: 1440px){
+    .header {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            display: block;
+            background-color: var(--dark-color);
+            top: 0;
+            left: 700px;
+            height: 900px;
+            width:900px;
+        }
     }
 }
