@@ -1,5 +1,5 @@
 .icons__container {
-    padding: 0px;
+    padding: 0px 15px;
 }
 .icons__list {
     display: flex;
@@ -20,15 +20,17 @@
 }
 @media screen and (min-width: 768px){
     .icons__item {
-        min-width: 344px;
+        min-width: 329px;
         height: 140px;
     }
 }
 @media screen and (min-width: 1440px){
     .icons__list {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
     }
     .icons__item {
-        min-width: 340px;
+        min-width: 210px;
         height: 140px;
     }
 }
