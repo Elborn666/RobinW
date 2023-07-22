@@ -1,7 +1,7 @@
 const body = document.querySelector('body')
-const form = document.querySelector('.form__booking-form')
-const modalSubmit = document.querySelector('.backdrop__submit')
-const closeBtn = document.querySelector('.modal__submit-button-close')
+const form = document.querySelector('.form-get')
+const modalSubmit = document.querySelector('.backdrop')
+const closeBtn = document.querySelector('.modal__window-button')
 
 form.addEventListener('submit', onSubmitForm)
 closeBtn.addEventListener('click', onCloseModal)
