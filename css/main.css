@@ -699,6 +699,10 @@ a {
   background-color: var(--dark-color);
 }
 
+.footer__body {
+  margin-bottom: 48px;
+}
+
 .footer__logo-icon {
   width: 131px;
   height: 40px;
@@ -717,7 +721,10 @@ a {
 }
 
 .footer__nav {
-  margin-bottom: 48px;
+  margin-bottom: 16px;
+}
+.footer__nav:nth-last-child(1) {
+  margin-bottom: 0px;
 }
 
 .footer__list-nav {
@@ -736,6 +743,22 @@ a {
 @media screen and (min-width: 768px) {
   .footer__container {
     padding-bottom: 56px;
+  }
+  .footer__body {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+  .footer__nav-wrapp {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 150px;
+  }
+  .footer__nav {
+    margin-bottom: 0px;
+  }
+  .footer__nocopy {
+    width: 329px;
   }
 }
 .backdrop {
