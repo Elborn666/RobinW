@@ -297,7 +297,6 @@ a {
 }
 
 .philosophy__button {
-  margin-bottom: 51px;
   font-size: 18px;
   color: var(--black-color);
   border-bottom: 1px solid var(--black-color);
@@ -328,8 +327,17 @@ a {
   .philosophy__img {
     width: 50%;
   }
+  .philosophy__wrap {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .philosophy__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .philosophy__text {
-    margin-bottom: 67px;
+    margin-bottom: 134px;
   }
 }
 .skillset__container {
@@ -377,6 +385,30 @@ a {
   }
   .skillset__item {
     max-width: 284px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .skillset__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .skillset__body {
+    display: flex;
+  }
+  .skillset__text-wrapp {
+    width: 368px;
+    margin-right: 72px;
+  }
+  .skillset__list {
+    width: 65%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 72px;
+    row-gap: 48px;
+  }
+  .skillset__item {
+    max-width: 368px;
   }
 }
 .icons__container {

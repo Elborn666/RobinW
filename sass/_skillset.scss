@@ -2,8 +2,6 @@
     padding-top: 64px;
     padding-bottom: 64px;
 }
-.skillset__body {
-}
 .skillset__title {
     margin-bottom: 16px;
 }
@@ -16,8 +14,6 @@
     flex-direction: column;
     row-gap: 48px;
 }
-.skillset__item {
-}
 .skillset__icon {
     margin-bottom: 24px;
     width: 32px;
@@ -25,8 +21,6 @@
 }
 .skillset__item-title {
     margin-bottom: 12px;
-}
-.skillset__item-text {
 }
 @media screen and (min-width: 768px){
     .skillset__container {
@@ -43,5 +37,29 @@
     }
     .skillset__item {
         max-width: 284px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .skillset__container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .skillset__body {
+        display: flex;
+    }
+    .skillset__text-wrapp {
+        width: 368px;
+        margin-right: 72px;
+    }
+    .skillset__list {
+        width: 65%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 72px;
+        row-gap: 48px; 
+    }
+    .skillset__item {
+        max-width: 368px;
     }
 }

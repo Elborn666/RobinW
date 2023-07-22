@@ -5,8 +5,6 @@
     padding-bottom: 0px;
     background-color: var(--light-color);
 }
-.philosophy__body {
-}
 .philosophy__title {
     margin-bottom: 24px;
     color: var(--black-color);
@@ -20,7 +18,6 @@
     margin-bottom: 51px;
 }
 .philosophy__button {
-    margin-bottom: 51px;
     font-size: 18px;
     color: var(--black-color);
     border-bottom: 1px solid var(--black-color);
@@ -49,7 +46,16 @@
     .philosophy__img {
         width: 50%;
     }
+    .philosophy__wrap {
+        margin-bottom: 0px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .philosophy__container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
     .philosophy__text {
-        margin-bottom: 67px;
+        margin-bottom: 134px;
     }
 }
