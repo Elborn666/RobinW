@@ -1,4 +1,6 @@
 .header__container {
+    position: relative;
+    z-index: 100;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -52,19 +54,19 @@
         display: none;
     }
 }
-// @media screen and (min-width: 1440px){
-//     .header {
-//         position: relative;
-//         &::before {
-//             content: '';
-//             position: absolute;
-//             z-index: 1;
-//             display: block;
-//             background-color: var(--dark-color);
-//             top: 0;
-//             left: 700px;
-//             height: 900px;
-//             width:900px;
-//         }
-//     }
-// }
+@media screen and (min-width: 1440px){
+    .header {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            display: block;
+            background-color: var(--dark-color);
+            top: 0;
+            left: 500px;
+            height: 900px;
+            width: 100%;
+        }
+    }
+}
