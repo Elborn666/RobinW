@@ -45,6 +45,9 @@ body {
     overflow: hidden;
     pointer-events: none;
 }
+.hidden-burger {
+    overflow: hidden;
+}
 @media screen and (min-width: 768px){
     .container {
         width: 688px;

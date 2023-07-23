@@ -52,6 +52,10 @@ body {
   pointer-events: none;
 }
 
+.hidden-burger {
+  overflow: hidden;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     width: 688px;
@@ -109,8 +113,6 @@ a {
 }
 
 .header__container {
-  position: relative;
-  z-index: 100;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -121,12 +123,16 @@ a {
 }
 
 .header__logo-icon {
+  position: relative;
+  z-index: 400;
   width: 79px;
   height: 24px;
 }
 
 .header__nav {
   display: none;
+  position: relative;
+  z-index: 50;
 }
 
 .header__list {
@@ -255,6 +261,66 @@ a {
     width: 750px;
   }
 }
+.burger__menu {
+  display: none;
+  position: fixed;
+  z-index: 300;
+  top: 0px;
+  right: 0px;
+  background-color: var(--dark-color);
+  transition: 0.7s;
+}
+
+.burger__container {
+  overflow: auto;
+  width: 768px;
+  height: 580px;
+  margin: 0 auto;
+  padding: 40px 30px 30px 40px;
+}
+
+.burger__body {
+  position: relative;
+}
+
+.burger__icon {
+  position: absolute;
+  top: -20px;
+  right: 0px;
+}
+
+.burger__cross-icon {
+  fill: var(--white-color);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.burger__nav {
+  padding-top: 80px;
+}
+
+.burger__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 20px;
+}
+
+.burger__link {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--white-color);
+  transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.burger__link:hover {
+  color: var(--button-color);
+}
+
+.active__burger {
+  display: block;
+}
+
 .companies__pretitle {
   margin-bottom: 8px;
   text-transform: uppercase;
