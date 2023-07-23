@@ -203,6 +203,10 @@ a {
   padding-top: 24px;
 }
 
+.hero__wrapp-text {
+  margin-top: 20px;
+}
+
 .hero__img {
   width: 100%;
   object-fit: cover;
@@ -260,6 +264,7 @@ a {
   .hero__wrapp-text {
     width: 408px;
     margin-left: -68px;
+    margin-top: 0px;
   }
   .hero__img {
     height: 650px;
