@@ -8,14 +8,23 @@
 .philosophy__title {
     margin-bottom: 24px;
     color: var(--black-color);
+
+    opacity: 0;
+    transition: all 2.5s ease 0s;
 }
 .philosophy__text {
     margin-bottom: 91px;
     font-size: 18px;
     color: var(--silver-light);
+
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
 }
 .philosophy__wrap {
     margin-bottom: 51px;
+
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
 }
 .philosophy__button {
     font-size: 18px;
@@ -64,4 +73,7 @@
     .philosophy__img {
         width: 720px;
     }
+}
+.active {
+    opacity: 1;
 }

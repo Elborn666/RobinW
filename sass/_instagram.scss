@@ -9,11 +9,17 @@
 .instagram__title {
     margin-bottom: 16px;
     color: var(--black-color);
+
+    opacity: 0;
+    transition: all 2.5s ease 0s;
 }
 .instagram__text {
     margin-bottom: 125px;
     font-size: 18px;
     color: var(--silver-light);
+
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
 }
 .instagram__button {
     font-size: 18px;
@@ -26,6 +32,9 @@
 }
 .instagram__wrapp {
     margin-bottom: 51px;
+
+    opacity: 0;
+    transition: all 2.5s ease 0.5s;
 }
 .instagram__img {
     width: 330px;
@@ -73,4 +82,7 @@
         width: 720px;
         height: 600px;
     }
+}
+.active {
+    opacity: 1;
 }

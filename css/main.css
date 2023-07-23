@@ -210,6 +210,8 @@ a {
 
 .hero__title {
   margin-bottom: 16px;
+  opacity: 0;
+  transition: all 4s ease 0s;
 }
 
 .grey {
@@ -219,6 +221,8 @@ a {
 .hero__subtitle {
   font-size: 18px;
   color: var(--white-color);
+  opacity: 0;
+  transition: all 4s ease 0.5s;
 }
 
 .scroll-up__button {
@@ -285,6 +289,10 @@ a {
     width: 750px;
   }
 }
+.active {
+  opacity: 1;
+}
+
 .burger__menu {
   display: none;
   position: fixed;
@@ -409,16 +417,22 @@ a {
 .philosophy__title {
   margin-bottom: 24px;
   color: var(--black-color);
+  opacity: 0;
+  transition: all 2.5s ease 0s;
 }
 
 .philosophy__text {
   margin-bottom: 91px;
   font-size: 18px;
   color: var(--silver-light);
+  opacity: 0;
+  transition: all 2.5s ease 0.5s;
 }
 
 .philosophy__wrap {
   margin-bottom: 51px;
+  opacity: 0;
+  transition: all 2.5s ease 0.5s;
 }
 
 .philosophy__button {
@@ -471,6 +485,10 @@ a {
     width: 720px;
   }
 }
+.active {
+  opacity: 1;
+}
+
 .skillset__container {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -672,12 +690,16 @@ a {
 .instagram__title {
   margin-bottom: 16px;
   color: var(--black-color);
+  opacity: 0;
+  transition: all 2.5s ease 0s;
 }
 
 .instagram__text {
   margin-bottom: 125px;
   font-size: 18px;
   color: var(--silver-light);
+  opacity: 0;
+  transition: all 2.5s ease 0.5s;
 }
 
 .instagram__button {
@@ -692,6 +714,8 @@ a {
 
 .instagram__wrapp {
   margin-bottom: 51px;
+  opacity: 0;
+  transition: all 2.5s ease 0.5s;
 }
 
 .instagram__img {
@@ -742,6 +766,10 @@ a {
     height: 600px;
   }
 }
+.active {
+  opacity: 1;
+}
+
 .dribble__container {
   padding-top: 64px;
   padding-bottom: 64px;
