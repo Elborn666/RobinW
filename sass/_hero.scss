@@ -17,6 +17,27 @@
     font-size: 18px;
     color: var(--white-color);
 }
+.scroll-up__button {
+    position: fixed;
+    z-index: 1000;
+    bottom: 20px;
+    right: 20px;
+
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--button-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.scroll-icon {
+    fill: var(--white-color);
+    transform: rotate(-90deg);
+}
 @media screen and (min-width: 768px){
     .hero__container {
         padding-top: 80px;
@@ -36,6 +57,10 @@
     .hero__img {
         height: 650px;
         width: 384px;
+    }
+    .scroll-up__button {
+        bottom: 30px;
+        right: 30px;
     }
 }
 @media screen and (min-width: 1440px){
