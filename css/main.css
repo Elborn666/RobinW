@@ -584,8 +584,12 @@ a {
   justify-content: center;
   max-width: 329px;
   height: 140px;
-  border: 1px solid;
+  border: 1px solid var(--silver-dark);
   cursor: pointer;
+  transition: border 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icons__item:hover {
+  border: 1px solid var(--button-color);
 }
 
 .icons__item:hover .icons__item-icon {
@@ -945,6 +949,7 @@ a {
 }
 
 .photography__img {
+  display: block;
   max-width: 360px;
   height: 100%;
   object-fit: contain;
